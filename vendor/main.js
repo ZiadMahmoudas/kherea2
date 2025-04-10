@@ -1,13 +1,13 @@
-// let navLinks = document.querySelectorAll(".nav-link");
-// navLinks.forEach((link) => {
-//   link.addEventListener("click", function () {
-//     navLinks.forEach((l) => l.classList.remove("active"));
-//     link.classList.add("active");
-//     setTimeout(() => {
-//       link.classList.remove("active");
-//     }, 10000000);
-//   });
-// });
+let navLinks = document.querySelectorAll(".nav-link");
+ navLinks.forEach((link) => {
+   link.addEventListener("click", function () {
+     navLinks.forEach((l) => l.classList.remove("active"));
+     link.classList.add("active");
+     setTimeout(() => {
+       link.classList.remove("active");
+    }, 10000000);
+   });
+ });
 
 new Swiper(".MYSwiper", {
   loop: true,
